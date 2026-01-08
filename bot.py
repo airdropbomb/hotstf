@@ -144,8 +144,8 @@ async def run_cycle(use_proxy, proxies):
             await asyncio.sleep(random.randint(5, 10))
 
 async def main():
-    print(Fore.CYAN + pyfiglet.figlet_format("NT EXHAUST", font="slant"))
-    print(Fore.YELLOW + "=== Telegram: @NTExhaust | HotStuff Auto Bot ===\n")
+    print(Fore.CYAN + pyfiglet.figlet_format("ADB NODE", font="slant"))
+    print(Fore.YELLOW + "=== Telegram: @airdropbombnode | HotStuff Auto Bot ===\n")
 
     use_proxy = input("🔌 Do You Want to Use Proxy? (y/n): ").lower() == 'y'
     proxies = []
